@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clients>
+    <record id ="1" name="Иванов Иван Иванович" phones="8(915)7453249" individualDiscount="0" />
+    <record id ="2" name="Козадаев Алексей Сергеевич" phones="8(920)4705850" individualDiscount="20" />
+</clients>

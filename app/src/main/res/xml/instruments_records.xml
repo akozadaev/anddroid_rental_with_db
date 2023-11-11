@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instruments>
+    <record id ="1" name="Пила торцовочная MAKITA LS 1040" rentalFees="350" rentStatus="0" />
+    <record id ="2" name="Лобзик MAKITA 4329" rentalFees="160" rentStatus="0" />
+    <record id ="3" name="Рубанок MAKITA 1911 B 8 мм" rentalFees="280" rentStatus="0" />
+    <record id ="4" name="Пила цепная ECHO CS-352 ES" rentalFees="420" rentStatus="0" />
+    <record id ="5" name="Перфоратор MAKITA HR 3200 С SDS+" rentalFees="720" rentStatus="0" />
+    <record id ="6" name="Шуруповерт MAKITA 6271 DWPE" rentalFees="230" rentStatus="0" />
+    <record id ="7" name="Дрель ударная MAKITA HP 1640" rentalFees="150" rentStatus="0" />
+    <record id ="8" name="Молоток отбойный MAKITA HM 1203C" rentalFees="1100" rentStatus="0" />
+    <record id ="9" name="УШМ MAKITA GA 9020 F" rentalFees="270" rentStatus="0" />
+    <record id ="10" name="Штроборез PRORAB 9818" rentalFees="380" rentStatus="0" />
+</instruments>

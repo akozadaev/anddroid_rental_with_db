@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="id клиента"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:gravity="center"
+        android:textSize="5sp"/>
+
+    <EditText
+        android:id="@+id/idClient"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:background="@drawable/stedit"
+        android:gravity="center"
+        android:text="1"
+        android:textSize="20sp"
+        android:textStyle="bold">
+        <requestFocus>
+        </requestFocus>
+    </EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:gravity="center"
+        android:textSize="5sp"/>
+
+    <Button
+        android:id="@+id/showclient"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:background = "@drawable/roundedbutton"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:text="Показать"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:gravity="center"
+        android:textSize="5sp"/>
+
+     <TextView
+         android:id="@+id/txtNameClient"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="ФИО клиента"
+         android:gravity="center"
+         android:textSize="20sp"
+         android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:gravity="center"
+        android:textSize="5sp"/>
+
+    <EditText
+        android:id="@+id/nameClient"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:background="@drawable/stedit"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:gravity="center"
+        android:textSize="5sp"/>
+
+    <TextView
+        android:id="@+id/txtPhonesClient"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Телефон клиента"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:gravity="center"
+        android:textSize="5sp"/>
+
+    <EditText
+        android:id="@+id/phonesClient"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:background="@drawable/stedit"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:gravity="center"
+        android:textSize="5sp"/>
+
+    <TextView
+        android:id="@+id/txtIndividualDiscountClient"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Индивидуальная скидка"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:gravity="center"
+        android:textSize="5sp"/>
+
+    <EditText
+        android:id="@+id/individualDiscountClient"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:background="@drawable/stedit"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:gravity="center"
+        android:textSize="5sp"/>
+
+    <Button
+        android:id="@+id/saveclient"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:background = "@drawable/roundedbutton"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:text="Сохранить"/>
+
+</LinearLayout>

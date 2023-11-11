@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/rec_main"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/title1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Прокат"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/title2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="инструментов"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/clients"
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:gravity="center"
+            android:background = "@drawable/roundedbutton"
+            android:text="Клиенты"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/instruments"
+            android:layout_width="220dp"
+            android:layout_height="70dp"
+            android:background = "@drawable/roundedbutton"
+            android:textColor="@android:color/holo_red_dark"
+            android:text="Инструменты"
+            android:gravity="center"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/orders"
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:textColor="@android:color/holo_red_dark"
+            android:background = "@drawable/roundedbutton"
+            android:text="Заказы"
+            android:gravity="center"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</LinearLayout>
